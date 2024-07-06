@@ -1,0 +1,26 @@
+.breadcrumb.text-white {
+  --bs-breadcrumb-divider-color: #fff;
+  --bs-breadcrumb-item-active-color: var(--bs-primary);
+}
+
+.service-icon {
+  font-size: 30px;
+  border-radius: 3.125rem;
+  border: 1px solid #D9D9D8;
+  padding: 1.25rem;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth effect */
+}
+
+.text-muted {
+  color: #908F8D !important;
+}
+
+.text-light-orange {
+  color: #FFA500; /* Light orange color */
+}
+
+.service-icon:hover {
+  color: #fff; /* Change icon color to white */
+  background-color: #FFA500; /* Fill background with light orange color */
+  cursor: pointer;
+}

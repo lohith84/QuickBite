@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap');
+
+.header-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, .display-1 {
+  font-family: 'Playball', cursive;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    font-weight: 500 !important;
+    font-family: 'Playball', cursive !important;
+}
+
+h4, h5, h6, .h4, .h5, .h6 {
+    font-weight: 600 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.header-container .text-color {
+  font-family: 'Playball', cursive !important;
+  color: #FFB347;
+}
+
+.header-container .clk {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0 2rem 0 1.8rem;
+  color: #000;
+  background-color: #FFF;
+  border: 1px solid #FFF;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+}
+
+.header-container .clk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  background: #ffa500;
+  pointer-events: none;
+  transform: translate3d(0, 70px, 0);
+  transition: all 0.3s 0s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.header-container .clk i {
+  font-style: normal;
+  line-height: 4.5rem;
+  display: inline-block;
+  height: 100%;
+  padding-left: 1px;
+  padding-right: 1px;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.header-container .clk i:hover {
+  transform: translate3d(0, -6px, 0);
+}
+
+.header-container .clk:hover {
+  color: #FFF;
+}
+
+.header-container .clk:hover:after {
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 992px) {
+  .header-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .header-container .display-1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .header-container .display-1 {
+    font-size: 2rem;
+  }
+
+  .header-container .btn {
+    margin-top: 1rem;
+  }
+}
+
+.header-container .wow,
+.header-container .animated {
+  animation-duration: 2s !important;
+}
+
+.header-container .my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.header-container .py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* Override Bootstrap padding and margin classes for vertical centering */
+.header-container .py-6 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.header-container .my-6 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
