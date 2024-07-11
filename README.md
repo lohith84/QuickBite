@@ -66,14 +66,27 @@ To run this project locally, follow these steps:
 5. Start the frontend development server:
    ```bash
    cd frontend && npm start
-3. Open your browser and navigate to http://localhost:3000 to view the application.
+
+5. Start the admin development server:
+   ```bash
+   cd admin && npm start
+   
+3. Open your browser and navigate to http://localhost:5173 to view the application.
+
+## BotPress-Integration
+Download and install Botpress from the official website.
+Follow the Botpress documentation to create a new bot and get it run.
+Integrate the Botpress chatbot into your React application by adding the Botpress script to your index.html or by using the Botpress SDK.
 
 ## Deployment
 QuickBite is deployed and can be accessed at: [QuickBite](https://quickbites-84.netlify.app/).
+
 ## Screenshots
+![quickbite](https://github.com/lohith84/QuickBite/assets/121237224/3b7ed078-2efc-439d-b361-0c47d4c590eb)
 
 ## Contributions
 Contributions are welcome! Please fork the repository and submit a pull request.
+
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
@@ -83,4 +96,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Add additional sections as needed, such as API documentation, troubleshooting tips, or deployment instructions.
 
 Feel free to tailor this template further based on your project's unique aspects and requirements!
-
