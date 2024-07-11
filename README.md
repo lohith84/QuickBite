@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
   MONGODB_URI="MongoDB URL"
   Frontend_URL="Frontend URL"
   Port=Port Number
-  #Get Secret_Key from [Stripe](https://stripe.com/)
+  #Get Secret_Key from https://stripe.com/
 
 - Create a .env file in the frontend directory.
 - Add the following variables:
