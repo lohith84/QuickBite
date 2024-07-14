@@ -3,11 +3,14 @@ import './map.css';
 import { assets } from '../../assets/assets';
 
 const Map = () => {
+  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const mapSrc = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=National+Institute+of+Technology,+Sector+1,+Rourkela,+Odisha+769008`;
+
   return (
     <div className="map-container" id="contact">
       <div className="map-wrapper">
         <iframe
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=National+Institute+of+Technology,+Sector+1,+Rourkela,+Odisha+769008"
+          src={mapSrc}
           width="100%"
           height="100%"
           frameBorder="0"
@@ -27,7 +30,7 @@ const Map = () => {
             <label htmlFor="message">Message:</label>
             <input id="message" placeholder="What would you like to share with us.." required />
           </div>
-          <div className='homp'><button class="button type1"> send</button></div> 
+          <div className='homp'><button className="button type1">send</button></div>
           <div className="app-download-platforms">
             <img src={assets.play_store} alt="Play Store" />
             <img src={assets.app_store} alt="App Store" />
