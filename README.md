@@ -52,6 +52,7 @@ To run this project locally, follow these steps:
   ```bash
   Backend_URL="Backend URL"
   Admin_URL="Admin URL"
+  GOOGLE_MAPS_API_KEY="key"
   
 - Create a .env file in the admin directory.
 - Add the following variables:
