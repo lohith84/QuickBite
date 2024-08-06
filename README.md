@@ -93,7 +93,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ### Notes:
 - Replace placeholders (`key`, `Secret_Key`, `MongoDB URL`, `Frontend URL`, `Backend URL`, `Admin URL`, `Port Number`) with your actual details.
-- Customize sections like screenshots, features, and technologies used according to your project specifics.
-- Add additional sections as needed, such as API documentation, troubleshooting tips, or deployment instructions.
+- Customize sections like features and technologies used according to your project specifics.
 
 Feel free to tailor this template further based on your project's unique aspects and requirements!
